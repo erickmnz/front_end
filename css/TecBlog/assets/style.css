@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: #0046f7;
+    padding: 15px;
+    text-align: center;
+}
+#area-logo, #menu{
+    padding: 10px;
+}
+h1{   
+    font-size: 2.5em;
+    
+}
+.branco{
+    color: #fff;
+    background-color: #4e4e4e;
+    padding: 8px 2px;
+    
+}
+.cinza{
+    color: #4e4e4e;
+    background-color: #fff;
+    padding: 8px 2px;
+}
+a{
+    text-decoration: none;
+}
+header a:link, header a:visited{
+    color: #fff;
+    padding: 5px 10px;
+    margin: 20px;
+}
+header a:hover{
+    color: #0046f7;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+#principal{
+    width: 980px;
+    margin: 0px auto;
+    padding: 15px;
+    
+}
+.postagem{
+    width: 660px;
+    float: left;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px ;
+}
+.postagem a:link, .postagem a:visited, #menu-lateral a:link, #menu-lateral a:visited{
+    color: #0046f7;    
+
+}
+.postagem a:hover, #menu-lateral a:hover{
+    text-decoration: underline;
+}
+h2{
+    color: #0046f7;
+}
+.data-post{
+    font-size: 0.5em;
+    margin: 5px;
+    display: block;
+}
+#menu-lateral{
+    width: 240px;
+    float: right;
+}
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px;
+}
+#menu-lateral h4{
+   background-color:  #4e4e4e;
+   color: #fff;
+}
+footer{
+    background-color: #c9d6f6;
+    padding: 15px 0px;
+    text-align: center;
+    clear: both;
+}

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(./img/fundo.png) repeat-x;
+}
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+header{
+    height: 150px;
+    background:url(./img/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#topo ul{
+    margin-top: 20px;
+    background: #b1033b;
+    display: flex;
+    justify-content: space-around;
+}
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 2.0em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(./img/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a{
+    background: none;
+}
+#topo ul a:hover{
+    color: #69001f;
+}
+body.home #navegacao a#home,
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos,
+body.brasil #navegacao a#brasil,
+body.saude #navegacao a#saude,
+body.economia #navegacao a#economia,
+body.ciencia #navegacao a#ciencia
+{
+    color: #fff;
+    background: #de003f;
+    cursor: text;
+}
+/*CONFIGURACAO LAYOUT DE TRES COLUNAS*/
+#conteudo{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+#primario{
+    width: 270px;
+    float: right;
+    background: yellow;
+}
+#secundario{
+    width: 270px;
+    float: right;
+    background: green;
+}
+#lateral{
+    width: 180px;
+    float: right;
+    background: blue;
+}
+footer{
+    background:#294c71;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
