@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex{
+            max-width: 300px;
+            max-height: 300px;
+            padding: 30px;
+            border: 20px solid black;
+            display: flex;
+            flex-wrap: nowrap;
+            
+
+
+        }
+        .flex-2{
+            max-width: 300px;
+            padding: 30px;
+            border: 20px solid black;
+            display: flex;
+            flex-wrap: wrap;
+
+            
+            
+        }
+        .item{
+            background-color: black;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>No wrap</h1>
+    <div class="flex"> 
+        <div class="flex">a</div>
+        <div class="flex">b</div>
+        <div class="flex">c</div>
+        <div class="flex">a</div>
+        <div class="flex">b</div>
+        <div class="flex">c</div>
+        <div class="flex">a</div>
+        <div class="flex">b</div>
+        <div class="flex">c</div>
+    </div>    
+    <h1>wrap</h1>
+    <div class="flex-2"> 
+        <div class="flex">a</div>
+        <div class="flex">b</div>
+        <div class="flex">c</div>
+        <div class="flex">a</div>
+        <div class="flex">b</div>
+        <div class="flex">c</div>
+        <div class="flex">a</div>
+        <div class="flex">b</div>
+        <div class="flex">c</div>
+    </div>   
+</body>
+</html>

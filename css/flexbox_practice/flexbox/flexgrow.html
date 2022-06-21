@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex grow</title>
+    <style>
+        .flex-container{
+            display: flex;
+            border: 2px solid black;
+            max-width: 300px;
+            flex-wrap: wrap;
+        }
+        .item{
+            background-color: green;
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        .g-0{
+            flex-grow:0;
+        }
+        .g-1{
+            flex-grow:1;
+        }
+        .g-2{
+            flex-grow:2;
+        }
+        .g-3{
+            flex-grow:3;
+        }
+        .g-4{
+            flex-grow:4;
+        }
+    </style>
+</head>
+<body>
+    <h2>grow 0</h2>
+    <div class="flex-container">
+        <div class="item g-0">a</div>
+        <div class="item g-0">b</div>
+        <div class="item g-0">c</div>
+        <div class="item g-0">d</div>
+    </div>
+    <h2>grow 1</h2>
+    <div class="flex-container">
+        <div class="item g-1">a</div>
+        <div class="item g-1">b</div>
+        <div class="item g-1">c</div>
+        <div class="item g-1">d</div>
+    </div>
+    <h2>Misturando grows alternados</h2>
+    <div class="flex-container">
+        <div class="item g-0">a</div>
+        <div class="item g-1">a</div>
+        <div class="item g-2">a</div>
+        <div class="item g-3">a</div>
+        <div class="item g-4">a</div>
+    </div>
+</body>
+</html>

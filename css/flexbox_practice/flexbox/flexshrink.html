@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex shrink</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 400px;
+        }
+        .item{
+            background-color: olive;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+        .s1{
+            flex-shrink: 1;
+            
+        }
+
+        .s1b{
+            flex-shrink: 1;
+            flex-basis: 200px;
+        }
+        .s1b{
+            flex-shrink: 2;
+            flex-basis: 200px;
+        }
+        .g1{
+            flex-grow: 1;
+        }
+
+        .g2{
+            flex-grow: 2;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h2>flex shrink 1</h2>
+    <div class="container">
+        <div class="item s1 g1">a</div>
+        <div class="item s1 g1">b</div>
+        <div class="item s1 g1">c</div>
+        <div class="item s1 g1">d</div>
+        <div class="item s1 g1">e</div>
+    </div>
+
+    <h2>flex shrink 1</h2>
+    <div class="container">
+        <div class="item s2 g1">a</div>
+        <div class="item s1 g1">bbcb bcb </div>
+        <div class="item s1 g2">cndj cdjnjncd njcdnc</div>
+        <div class="item s1 g1">dckmdkm cdkmckd ckd ckmdkm</div>
+        <div class="item s1 g1">e</div>
+    </div>
+</body>
+</html>
