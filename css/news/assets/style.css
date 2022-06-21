@@ -64,19 +64,22 @@ body.ciencia #navegacao a#ciencia
     margin-top: 60px;
     background: #f5f5f5;
 }
-#primario{
+#tres-col #primario{
     width: 270px;
-    float: right;
+    float: left;
     background: yellow;
+    margin: 0 0 20px 195px;
 }
-#secundario{
+#tres-col #secundario{
     width: 270px;
-    float: right;
+    margin: 0 0 20px 15px;
+    float: left;
     background: green;
 }
-#lateral{
+#tres-col #lateral{
     width: 180px;
-    float: right;
+    margin:0 0 20px -750px;
+    float: left;
     background: blue;
 }
 footer{
