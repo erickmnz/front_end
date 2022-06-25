@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="corpo">
+    <button type="button" onclick="modEstilo('rgb(9, 9, 9)','rgb(200, 200, 255)','rgb(0,0,55)')">noite</button>
+    <button type="button" onclick="modEstilo('rgb(200, 200, 255)','rgb(9, 9, 9)','rgb(155, 255, 0)')">dia</button>
+    <h1>teste</h1>
+    <div id="square">
+        
+        <input type="text" id="digite" placeholder="digite algo" onkeyup="distribuiCaracter()" >
+        <hr>
+        <div>
+            <span>Letras</span>
+            <input type="text" id="texto" disabled="disabled">
+            <span>Numeros</span>
+            <input type="text" id="numero" disabled="disabled">
+        </div>
+    </div>
+    <input type="text" id="campo_teste" onfocus="fcs()" onblur="oblur()">
+</body>
+<script src="dist_caracter.js"></script>
+<script src="manipulando_estilo.js"></script>
+<script src="p1.js"></script>
+</html>
